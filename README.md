@@ -17,5 +17,4 @@ Lista numerada
 _italica texto_
 ***negrita italica***
 
-![imagen pato](![image](https://github.com/user-attachments/assets/b74b6395-893c-4cb2-a478-596d02f46b52)
-)
+![imagen pato](https://github.com/user-attachments/assets/b74b6395-893c-4cb2-a478-596d02f46b52)
