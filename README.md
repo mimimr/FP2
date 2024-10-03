@@ -12,3 +12,10 @@ Lista numerada
 1. Lol
 2. lol
 3. lol
+
+**negrita**
+_italica texto_
+***negrita italica***
+
+![imagen pato](![image](https://github.com/user-attachments/assets/b74b6395-893c-4cb2-a478-596d02f46b52)
+)
