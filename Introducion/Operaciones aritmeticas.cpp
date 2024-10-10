@@ -108,7 +108,7 @@ int main()
     f1 += 2.5;
     cout << "Sumar 2.5 a f1: " << f1 << endl;
     f2 -= 1.2;
-    cout << "REstar 1.2 a f2: " << f2 << endl;
+    cout << "Restar 1.2 a f2: " << f2 << endl;
 
 
     std::cout << "Hello World!\n";
