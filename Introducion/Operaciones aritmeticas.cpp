@@ -110,6 +110,11 @@ int main()
     f2 -= 1.2;
     cout << "Restar 1.2 a f2: " << f2 << endl;
 
+    // ejemplos y pequeños ejercicios
+    cout << (n1 > n2) << endl;
+    cout << (n1 < n2) << endl;
+    cout << ((n1 + 15) > n2) << endl;
+
 
     std::cout << "Hello World!\n";
 }
