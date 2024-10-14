@@ -1,4 +1,3 @@
-// FP.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 // Clase 14 de Octubre 2024
 
 #include <iostream>
@@ -51,7 +50,7 @@ int main()
     cout << "(n1 > -n2): " << (n1 > -n2) << endl;
     cout << "(f1 < -f2): " << (f1 > -f2) << endl;
 
-    // 9. Combinacion de comparaciones
+    // 9. Combinacion de comparaciones (tambien se puede usar "and" en lugar de &&)
     cout << "((n1 < n2) && (f1 > f2)): " << ((n1 < n2) && (f1 > f2)) << endl;
     cout << "((n1 == 10) || (f1 == 5.2)): " << ((n1 == 10) || (f1 == 5.2)) << endl;
 
