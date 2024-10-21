@@ -18,6 +18,8 @@ int main()
 
     // 1.3 Convertir a yardas
 
+
+
     //1.4 Problema 1
     int valor = 200000;
     cout << "Devaluacion es: " << (valor * 0.8) << endl;
@@ -37,9 +39,23 @@ int main()
     cout << "Resultado 4: " << (n2 % 7) << endl;
     cout << "Resultado 5: " << (n1 + 3.0) << endl;
     cout << "Resultado 6: " << (10 / 100) << endl;
-    cout << "Resultado 7: " << pow(3,2) << endl;
+    cout << "Resultado 7: " << pow(3, 2) << endl;
 
+    // 1.7 Comparaciones
+    int a = 10;
+    int b = 20;
+    cout << boolalpha;
 
+    cout << "Comparacion 1: " << (a > b) << endl;
+    cout << "Comparacion 2: " << (a < b) << endl;
+    cout << "Comparacion 3: " << (a == b) << endl;
+    cout << "Comparacion 4: " << (a != b) << endl;
+    cout << "Comparacion 5: " << ((a + b) > 10) << endl;
+    cout << "Comparacion 6: " << ((a - b) == 0) << endl;
+    cout << "Comparacion 7: " << ((a * b) > 500 ) << endl;
+    cout << "Comparacion 8: " << ((a * b) < 100) << endl;
+    cout << "Comparacion 9: " << ((a - b) < 0) << endl;
+    cout << "Comparacion 10: " << (a < 20) << endl;
 
     std::cout << "Hello World!\n";
 }
