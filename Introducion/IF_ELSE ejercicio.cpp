@@ -18,7 +18,7 @@ int main()
     {
         cout << "n2: " << n2 << endl;
 
-    }
+ }
 //Ejercicio 3 solicitar edad
 {
     int edad;
@@ -57,10 +57,6 @@ int main()
 
 }
 // Ejercicio 5 Voto
-#include <iostream>
-using namespace std;
-
-int main()
 {
     char voto = ' ';
     cout << "a favor s/n:";
