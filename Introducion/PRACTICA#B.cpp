@@ -17,8 +17,8 @@ int main()
     cout << "La potencia de 4 es: " << (num * num) << endl;
 
     // 1.3 Convertir a yardas
-
-
+    int metros = 0.9144;
+    cout << "metros a yardas: " << (10 / metros) << endl;
 
     //1.4 Problema 1
     int valor = 200000;
@@ -52,7 +52,7 @@ int main()
     cout << "Comparacion 4: " << (a != b) << endl;
     cout << "Comparacion 5: " << ((a + b) > 10) << endl;
     cout << "Comparacion 6: " << ((a - b) == 0) << endl;
-    cout << "Comparacion 7: " << ((a * b) > 500 ) << endl;
+    cout << "Comparacion 7: " << ((a * b) > 500) << endl;
     cout << "Comparacion 8: " << ((a * b) < 100) << endl;
     cout << "Comparacion 9: " << ((a - b) < 0) << endl;
     cout << "Comparacion 10: " << (a < 20) << endl;
