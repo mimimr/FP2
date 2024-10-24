@@ -47,10 +47,97 @@ int main()
     cin >> proTotal;
     cout << "Porcentaje de Propina a dar:";
     cin >> Porcentaje;
-    cout << "Propina total a dar: " << (proTotal / porcentaje) << endl;
+    cout << "Propina total a dar: " << (proTotal / Porcentaje) << endl;
 
+    // 1.6 IF ELSE EJERCICIO 1
+    {
+        int n1;
+        cout << "n1: ";
+        cin >> n1;
+        cout << endl;
+        if (n1 > 100)
+        {
+            cout << "El numero es mayor a 100: " << n1 << endl;
 
-    
+        }
+        else
+        {
+            cout << "Es menor o igual a 100: " << n1 << endl;
+        }
+
+        // 1.7 IF ELSE EJERCICIO 2
+        int nu1;
+        cout << "Incerte un numero: ";
+        cin >> nu1;
+        cout << endl;
+        if (nu1 < 0)
+        {
+            cout << "Numero negativo";
+        }
+        else
+        {
+            cout << "numero Positivo";
+        }
+        
+
+        // 1.8 IF ELSE EJERCICIO 3
+        int Miemail;
+        cout << "Incerte su mail: ";
+        cin >> Miemail;
+        cout << endl;
+        int pasword;
+        cout << "Incerte password: ";
+        cin >> pasword;
+        cout << endl;
+        if (pasword == 12345)
+        {
+            cout << "Pasword valido";
+        }
+        else
+        {
+            cout << "Pasword invalido";
+        }
+        
+
+        // 1.9 IF ELSE EJERCICIO 4
+        int Farenheith;
+        cout << "Incerte temperatura en F°: ";
+        cin >> Farenheith;
+        cout << endl;
+        
+        if (Farenheith == 32)
+        {
+            cout << "Es igual a cero";
+        }
+        if (Farenheith < 32 and Farenheith > 32)
+        {
+            cout << ((Farenheith - 32) * (5 / 9));
+            cout << "Es: ";
+        }
+
+        // 1.10 IF ELSE EJERCICIO 5
+        double peso, estatura;
+        double mc;
+        cout << "Peso ";
+        cin >> peso;
+        cout << endl;
+        cout << "estatura: ";
+        cin >> estatura;
+        cout << endl;
+
+        cout << fixed;
+        cout << setprecision(2);
+        mc = peso / (estatura * estatura);
+        cout << "Masa corporal: " << mc << endl;
+
+        if (mc < 18.5)
+        {
+            cout << "Tu peso es bajo" << endl;
+        }
+        if (mc >= 18.5 and mc < 25)
+        {
+            cout << "Peso normal" << endl;
+        }
+
 
     std::cout << "Hello World!\n";
-}
