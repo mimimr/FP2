@@ -78,7 +78,7 @@ int main()
         {
             cout << "numero Positivo";
         }
-        
+
 
         // 1.8 IF ELSE EJERCICIO 3
         int Miemail;
@@ -97,14 +97,14 @@ int main()
         {
             cout << "Pasword invalido";
         }
-        
+
 
         // 1.9 IF ELSE EJERCICIO 4
         int Farenheith;
         cout << "Incerte temperatura en F°: ";
         cin >> Farenheith;
         cout << endl;
-        
+
         if (Farenheith == 32)
         {
             cout << "Es igual a cero";
@@ -138,6 +138,21 @@ int main()
         {
             cout << "Peso normal" << endl;
         }
+        if (mc >= 25 and mc < 30)
+        {
+            cout << "Sobrepeso" << endl;
+        }
+        if (mc >= 30 and mc < 35)
+        {
+            cout << "Obeso Clase 1" << endl;
+        }
+        if (mc >= 35 and mc < 40)
+        {
+            cout << "Obeso clase 2" << endl;
+        }
+        if (mc >= 40)
+        {
+            cout << "Obeso clase 3" << endl;
+        }
 
-
-    std::cout << "Hello World!\n";
+        std::cout << "Hello World!\n";
