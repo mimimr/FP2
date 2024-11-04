@@ -5,34 +5,39 @@ using namespace std;
 
 int main()
 {
-    // 1.16 
-    int A, B, C;
-    cout << "Incerte un numero: ";
-    cin >> A;
-    cout << endl;
-
-    cout << "Incerte un numero: ";
-    cin >> B;
-    cout << endl;
-
-    cout << "Incerte numero: ";
-    cin >> C;
-    cout << endl;
-
-    if (A < B)
+    // 1.16 Mayor o igual que
+    int A = 1, B = 10, C = 100;
+    
+    if (A >= B and A >= C)
     {
-        cout << "B es mayor" << endl;
+        cout << "Mayor es A" << endl;
     }
-    if (A < C)
+    if (B >= A and B >= C)
     {
-        cout << "C es mayor" << endl;
+        cout << "Mayor es B" << endl;
     }
-    if (A > B and A > C)
+    if (C >= A and C >= B)
     {
-        cout << "A es mayor" << endl;
+        cout << "Mayor es C" << endl;
     }
 
-    // 1.17
+    // 1.17 
+    int a = 10, b = 5, c = 1;
+
+    if (a <= b and a <= c)
+    {
+        cout << "Menor es A" << endl;
+    }
+    if (b <= a and b <= c)
+    {
+        cout << "Menor es B" << endl;
+    }
+    if (c <= a and c <= b)
+    {
+        cout << "Menor es C" << endl;
+    }
+    // 1.18 Solicita la hora
+
 
 
     std::cout << "Hello World!\n";
