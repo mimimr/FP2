@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int numMes = 0;
-    cout << "Numero de mes";
+    cout << "Numero de mes: ";
     cin >> numMes;
     switch (numMes)
     {
