@@ -5,7 +5,15 @@ using namespace std;
 
 int main()
 {
-    // 1.21
+     // 1.21 do... while
+ int respuesta = 0;
+ do
+ {
+     cout << "¿Quieres salir del ciclo?: " << endl;
+     cout << "Vuelves al ciclo" << endl;
+     cout << "Salir" << endl;
+
+ } while (respuesta != 1);
     
     // 1.22
 
