@@ -17,7 +17,31 @@ do
     // 1.22
 
     
-    // 1.23
+   // 1.23 Saldo y retiro
+int sueldo = 3450;
+int retiro = 0;
+int pin = 1234;
+cout << "Cantidad de retiro: ";
+cin >> retiro;
+if (retiro <= sueldo)
+{
+    cout << "Saldo suficiente" << endl;
+}
+if (retiro > sueldo)
+{
+    cout << "Saldo insuficiente" << endl;
+}
+
+cout << "Ingrese pin: ";
+cin >> pin;
+if (pin == 1234)
+{
+    cout << "Pin correcto" << endl;
+}
+else
+{
+    cout << "Retiro invalido" << endl;
+}
     
 
     // 1.24 SRAND minijuego
