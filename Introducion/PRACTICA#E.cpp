@@ -6,14 +6,13 @@ using namespace std;
 int main()
 {
      // 1.21 do... while
- int respuesta = 0;
- do
- {
-     cout << "¿Quieres salir del ciclo?: " << endl;
-     cout << "Vuelves al ciclo" << endl;
-     cout << "Salir" << endl;
+int respuesta = 0;
+do
+{
+    cout << "¿Quieres salir del ciclo?: " << endl;
+    cin >> respuesta;
 
- } while (respuesta != 1);
+} while (respuesta != 1);
     
     // 1.22
 
