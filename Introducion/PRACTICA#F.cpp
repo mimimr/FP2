@@ -4,6 +4,20 @@
 using namespace std;
 int main()
 {
+    // Ejercicio. 1. Secuencia disminucion
+    for (int i = 9; i >= 0; i--)
+    {
+        cout << i << " , ";
+    }
+    cout << endl;
+
+    // Ejercicio 2. Secuencia al 99
+    for (int i = 0; i <= 99; i++)
+    {
+        cout << i << " , ";
+    }
+    cout << endl;
+    
     // Ejercicio 3. Numeros pares
 
     for (int i = 2; i <= 100 << i++)
@@ -24,6 +38,7 @@ int main()
         {
             cout << n << " , ";
         }
+    // Ejercicio 5. 
 
     std::cout << "Hello World!\n";
 }
