@@ -28,7 +28,6 @@ int main()
         cout << endl;
 
     // Ejercicio 4. Minimo y maximo
-
         int min, max;
         cout << "Dame el minimo: ";
         cin >> min;
@@ -38,7 +37,18 @@ int main()
         {
             cout << n << " , ";
         }
-    // Ejercicio 5. 
+
+    // Ejercicio 5.
+        int nim, nax;
+        cout << "Dame el minimo: ";
+        cin >> nim;
+        cout << "Dame el maximo: ";
+        cin >> nax;
+        for (int i = nax; i >= nim; i--)
+        {
+            cout << i << " , ";
+        }
+        cout << endl;
 
     std::cout << "Hello World!\n";
 }
