@@ -20,7 +20,7 @@ int main()
     
     // Ejercicio 3. Numeros pares
 
-    for (int i = 2; i <= 100 << i++)
+    for (int i = 2; i <= 100; i++)
 
         {
             cout << i << " , ";
