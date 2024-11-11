@@ -5,16 +5,25 @@ using namespace std;
 int main()
 {
     // Ejercicio 3. Numeros pares
-    int i = 2;
-    
-    if (i % 2 == 0)
-    {
-        cout << "Contar los numeros pares" << i << endl;
-    }
-    else
-    {
-        cout << "No numero par" << endl;
-    }
+
+    for (int i = 2; i <= 100 << i++)
+
+        {
+            cout << i << " , ";
+        }
+        cout << endl;
+
+    // Ejercicio 4. Minimo y maximo
+
+        int min, max;
+        cout << "Dame el minimo: ";
+        cin >> min;
+        cout << "Dame el maximo: ";
+        cin >> max;
+        for (int n = min; n <= max; n++)
+        {
+            cout << n << " , ";
+        }
 
     std::cout << "Hello World!\n";
 }
