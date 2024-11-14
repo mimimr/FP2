@@ -30,6 +30,8 @@ int main()
     // {} -> Conjunto de datos separados por ",". Sirve para inicializar arreglos
     // : -> Operador referencia
     /* Estos arreglos son de una dimension, es decir que solamente es lineal */
+     /* INDEXACION DE UN ARREGLO: Es la definicion de como accesar los valores de un arreglo*/
+ /*El primer elemento de un arreglo SIEMPRE debe iniciar con 0*/
 
 
     std::cout << "Hello World!\n";
