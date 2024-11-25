@@ -38,7 +38,7 @@ int main()
         cout << elemento << endl;
     }
 
-    // Ejercicio 2. Forma 2:
+    // Ejercicio 1. Forma 2:
     
      vector <int> numeros;
  int num;
@@ -58,7 +58,20 @@ int main()
      cout << elementos << endl;
  }
 
-    
+     // Ejercicio 3.
+  int numeros[10]
+  { 34, 23, 94, 53, 16, 27, 5, 25, 42, 82 };
+  vector <int> vnum
+  { 34, 23, 94, 53, 16, 27, 5, 25, 42, 82 };
+  int mayor = -1;
+  for (int i = 0; i <= 9; i++)
+  {
+      if (vnum[i] > mayor)
+      {
+          mayor = vnum[i];
+      }
+  }
+
     // Ejercicio 4.
     srand(time(NULL));
     int total = 0;
@@ -75,7 +88,57 @@ int main()
     {
         promedio = arreglo[i];
     }
-    
+
+  // Ejercicio 8.
+  int numeros[10]
+  { 34,23,94,53,16,27,5,25,42,82 };
+  int primero, segundo, tercero, temp =0;
+  primero = numeros[0];
+  segundo = numeros[1];
+  tercero = numeros[2];
+  if ( primero < segundo)
+  {
+      temp = primero;
+      primero = segundo;
+      segundo = temp;
+  }
+  if (primero < tercero)
+  {
+      temp = primero;
+      primero = tercero;
+      tercero = temp;
+  }
+  if (segundo < tercero)
+  {
+      temp = segundo;
+      segundo = tercero;
+      tercero = temp;
+  }
+  for (int i = 3; i <= 9; i++)
+  {
+      if (numeros[i] > primero)
+      {
+          tercero = segundo;
+          segundo = primero;
+          primero = numeros[i];
+      }
+      else if (numeros[i] > segundo)
+      {
+          tercero = segundo;
+          segundo = numeros[i];
+      }
+      else if (numeros[i] > tercero)
+      {
+          tercero = numeros[i];
+      }
+
+  }
+  cout << primero << endl;
+  cout << segundo << endl;
+  cout << tercero << endl;
+ 
+
+
 
         
 
