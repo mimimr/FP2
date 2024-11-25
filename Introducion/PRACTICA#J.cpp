@@ -18,7 +18,7 @@ int main()
     }
 
 
-    //  Ejercicio 1:
+    //  Ejercicio 1. Forma 1:
     int numeros[10];
     int num, i = 0;
     num = -1;
@@ -38,6 +38,25 @@ int main()
         cout << elemento << endl;
     }
 
+    // Ejercicio 2. Forma 2:
+    
+     vector <int> numeros;
+ int num;
+ num = -1;
+ while (num != 0)
+ {
+     cout << "Numeros: ";
+     cin >> num;
+     if (num == 0)
+     {
+         break;
+     }
+     numeros.push_back(num);
+ }
+ for (int elementos : numeros)
+ {
+     cout << elementos << endl;
+ }
 
     
     // Ejercicio 4.
